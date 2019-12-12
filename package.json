@@ -1,0 +1,17 @@
+{
+  "name": "tryingassets",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config webpack.config.oneOf.js && webpack --config webpack.config.simple2imports.js"
+  },
+  "devDependencies": {
+    "css-loader": "^3.3.2",
+    "webpack": "^5.0.0-beta.9",
+    "webpack-cli": "^3.3.10"
+  },
+  "dependencies": {
+    "glyph-size-loader": "^0.1.0"
+  }
+}
